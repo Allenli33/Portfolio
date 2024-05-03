@@ -63,7 +63,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-pink-300 lg:text-lg">
-            I am a recent graduate of the Computer Information Technology program at BCIT, with a specialization in web development and web application design. My technical proficiency includes JavaScript, HTML, CSS, and extensive experience with Node.js and Flask. My skills also encompass algorithm design, database management, and cloud services, particularly AWS. Additionally, I have hands-on experience with infrastructure as code and automation tools, including Terraform and Ansible, further enhancing my ability to manage complex web environments and deploy scalable applications.
+          I recently graduated from BCIT&apos;s Computer Information Technology diploma, specializing on web programming and web application design. My technical skills include JavaScript, HTML, CSS, and deep knowledge of Node.js and Flask. My expertise include algorithm creation, database management, and cloud services, particularly AWS. Furthermore, I have hands-on expertise with infrastructure as code and automation technologies such as Terraform and Ansible, which has improved my capacity to manage complicated web infrastructures and build scalable apps.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
