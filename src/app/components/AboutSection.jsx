@@ -62,7 +62,7 @@ const AboutSection = () => {
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-          <p className="text-pink-300 lg:text-lg">
+          <p className="text-base text-pink-200 lg:text-lg">
             I recently graduated from BCIT&apos;s Computer Information
             Technology diploma, specializing on web programming and web
             application design. My technical skills include JavaScript, HTML,
