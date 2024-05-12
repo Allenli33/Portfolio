@@ -47,10 +47,11 @@ export const HeroSection = () => {
                   .getElementById("contact")
                   .scrollIntoView({ behavior: "smooth" })
               }
-              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-yellow-500 via-red-500 to bg-pink-500 text-black"
+              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-yellow-500 via-red-500 to bg-pink-500 text-black hover:text-white transition-colors duration-300"
             >
               Hire Me
             </button>
+
             <a
               href="allen_resume_v2.pdf" // Specify the path to your resume file here
               download="allen_li_resume.pdf" // Specify the download filename here
