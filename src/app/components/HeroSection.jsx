@@ -41,14 +41,27 @@ export const HeroSection = () => {
             behind you.
           </p>
           <div>
-            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-yellow-500 via-red-500 to bg-pink-500 text-black">
+            <button
+              onClick={() =>
+                document
+                  .getElementById("contact")
+                  .scrollIntoView({ behavior: "smooth" })
+              }
+              className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-yellow-500 via-red-500 to bg-pink-500 text-black"
+            >
               Hire Me
             </button>
-            <button className="px-1 py-1 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-yellow-500 via-red-500 to bg-pink-500 text-white mt-3">
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Resume
-              </span>
-            </button>
+            <a
+              href="allen_resume_v2.pdf" // Specify the path to your resume file here
+              download="allen_li_resume.pdf" // Specify the download filename here
+              className="w-full sm:w-fit"
+            >
+              <button className="px-1 py-1 rounded-full mr-4 bg-gradient-to-br from-yellow-500 via-red-500 to bg-pink-500 text-white mt-3">
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+                  Resume
+                </span>
+              </button>
+            </a>
           </div>
         </motion.div>
         <motion.div
