@@ -53,7 +53,7 @@ export const HeroSection = () => {
             </button>
 
             <a
-              href="allen_resume_v2.pdf" // Specify the path to your resume file here
+              href="allen_resume_v3.pdf" // Specify the path to your resume file here
               download="allen_li_resume.pdf" // Specify the download filename here
               className="w-full sm:w-fit"
             >
